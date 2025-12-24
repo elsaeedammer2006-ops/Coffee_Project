@@ -140,7 +140,7 @@ a{
 
 /* Home Start */
 #home{
-    background: url("./image/home-bg.png") center no-repeat;
+    /* background: url("./image/home-bg.png") center no-repeat; */
     background-size: cover;
     background-color: var(--bg-color);
     padding-top: 70px;
@@ -154,7 +154,6 @@ a{
     align-items: center;
     padding: 2rem 0;
 }
-
 #home .home-content .content-text h3{
     font-size: 24px;
     font-weight: 400;
@@ -568,12 +567,15 @@ width: 70px;
     #home .home-content {
         grid-template-columns: 1fr;
         text-align: center;
-        gap: 2rem;
-        padding: 4rem 0 2rem;
+        /* gap: 2rem; */
+        padding: 1rem 0 ;
     }
     
     #home .home-content .content-text h1 {
         font-size: 45px;
+    }
+    #home .container .home-content .btn{
+        margin-top: 1rem;
     }
     
     #home .home-content .content-text h3 {
